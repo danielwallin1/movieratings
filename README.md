@@ -33,5 +33,5 @@ https://mymovieratings.herokuapp.com/
 
 Applikationen är optimerad för desktop och Chrome.
 
-![Movie rating](./dist/client/static/images/movierating1.png)
-![Movie rating2](./dist/client/static/images/movierating2.png)
+![Movie rating](./dist/client/static/images/movieratings1.png)
+![Movie rating2](./dist/client/static/images/movieratings2.png)
