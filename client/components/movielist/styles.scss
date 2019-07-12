@@ -1,0 +1,89 @@
+.movie-library {
+  .heading {
+    font-family: 'Mylodon-Light', 'arial', 'sans-serif';
+    text-align: center;
+    color: #10B7FF;
+    margin: 50px 0;
+    letter-spacing: 4px;
+  }
+
+  .movie-list {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 0 auto 50px;
+    padding: 0;
+    list-style: none;
+    max-width: 1055px;
+
+    .title {
+      font-family: 'Mylodon-Light', 'arial', 'sans-serif';
+      display: block;
+      letter-spacing: 4px;
+      margin-bottom: 10px;
+      max-width: 180px;
+      font-size: 12px;
+    }
+
+    .list-item-wrapper {
+      border-radius: 3px;
+      list-style-image: none;
+      color: #10B7FF;
+      text-align: center;
+      margin-bottom: 15px;
+      position: relative;
+
+    .list-item {
+        position: relative;
+        border: 1px solid #10B7FF;
+        overflow: hidden;
+        margin-bottom: 10px;
+        text-align: center;
+        height: 277px;
+        width: 184px;
+      -webkit-box-reflect: below -2px -webkit-gradient(linear, left top, left bottom, from(#0000), color-stop(30%, #0000), to(#fafafa1a));
+
+        .like-wrapper {
+          width: 30px;
+          height: 30px;
+          background-color: #D4AF37;
+          position: absolute;
+          z-index: 99;
+          border-radius: 15px;
+          right: 10px;
+          top: 10px;
+          cursor: pointer;
+
+          .average {
+            font-family: 'Helvetica', 'Arial', 'sans-serif';
+            font-size: 14px;
+            color: #fff;
+            position: absolute;
+            left: 3px;
+            right: 0;
+            top: 7px;
+            bottom: 0;
+            letter-spacing: 1px;
+          }
+        }
+
+        .poster {
+          height: 100%;
+          width: auto;
+          display: inline-block;
+          -webkit-box-reflect: below 80px -webkit-gradient(linear, left top, left bottom, from(#0000), color-stop(40%, #0000), to(#fafafa1a));
+        }
+
+        .poster:after {
+          content: "";
+          display: block;
+          background: -moz-element(#moz-reflect) no-repeat;
+          width: auto;
+          height: 375px;
+          margin-bottom: 100px;
+          -moz-transform: scaleY(-1);
+        }
+      }
+    }
+  }
+}
