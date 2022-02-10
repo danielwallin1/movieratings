@@ -42,7 +42,7 @@
     "mobx-apollo": "0.0.18",
     "mobx-react": "^5.2.3",
     "node-fetch": "^2.1.2",
-    "node-sass": "^4.9.2",
+    "node-sass": "^7.0.0",
     "prop-types": "^15.6.2",
     "react": "^16.4.1",
     "react-apollo": "^2.1.9",
